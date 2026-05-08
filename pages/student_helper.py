@@ -5,9 +5,6 @@ from google import genai
 from ddgs import DDGS
 import streamlit as st
 
-
-
-
 # --- טעינת משתני סביבה ---
 load_dotenv()
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))

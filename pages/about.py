@@ -1,8 +1,5 @@
 import streamlit as st
 
-
-
-
 st.set_page_config(
     page_title="אודות הכלי",
     page_icon="ℹ️",
