@@ -12,6 +12,7 @@ client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 
 
+
 # --- הגדרות עמוד ---
 st.set_page_config(
     page_title="סוכן מידע פיננסי",
