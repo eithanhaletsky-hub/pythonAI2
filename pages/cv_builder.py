@@ -17,6 +17,7 @@ st.set_page_config(
     layout="wide"
 )
 
+
 # --- עיצוב CSS ---
 st.markdown("""
     <style>

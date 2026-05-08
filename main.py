@@ -9,6 +9,7 @@ from PIL import Image
 import streamlit as st
 
 
+
 # --- טעינת משתני סביבה ---
 load_dotenv()
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
